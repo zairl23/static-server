@@ -3,7 +3,7 @@ var http = require('http');
 var fs = require('fs');
 var path = require("path");
 var url = require('url');
-var PORT = process.env.NODE_ENV || 8080;
+var PORT = process.env.PORT || 8080;
 var mimes = {
 
   "css": "text/css",
